@@ -37,5 +37,5 @@ def sanatize_word(word):
 if __name__ == '__main__':
     word = sanatize_word(input("Enter a word: "))
     print(is_pyramid(word))
-    
+    input('Press any key to quit')
     
