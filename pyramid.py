@@ -49,7 +49,7 @@ class PyramidWord(Resource):
         return jsonify(is_pyramid(word))
 
 
-api.add_resource(PyramidWord, '/<string:word>')
+api.add_resource(PyramidWord, '/pyramid/api/<string:word>')
 
 if __name__ == '__main__':
     app.run(debug=True)
