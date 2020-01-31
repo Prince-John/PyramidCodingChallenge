@@ -9,6 +9,7 @@ Once the program runs, it starts the webservice on the localhost at port 5000.
 
 This API can be queried by passing the word as a string get request in the following url format:
          `https://localhost:5000/pyramid/api/<InputText>`
+         
 This API returns the a boolean json object as a result.  
 
 **Error Handeling:**
